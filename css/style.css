@@ -54,6 +54,15 @@
     .v-class{
         opacity: 0;
     }
+    .dp{
+        width: 80% !important;
+    }
+    .member-family{
+        width: 80% !important;
+    }
+    .member-family-2{
+        width: 80% !important;
+    }
 }
 
 @media screen and (max-width: 1100px){
