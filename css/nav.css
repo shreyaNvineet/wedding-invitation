@@ -44,6 +44,7 @@
     background: rgba(5, 4, 4, 0.3) url('../assets/bg.JPG');
     background-size: cover;
     background-blend-mode: darken;
+    background-position: center;
 }
 
 .text-big{
