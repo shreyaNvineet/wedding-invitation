@@ -1,0 +1,114 @@
+@media screen and (max-width: 750px){
+    .nav-list{
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .navbar{
+        position: relative;
+    }
+    
+    .burger{
+        display: block !important;
+    }
+
+    .h-nav{
+        height: 70px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+}
+@media screen and (max-width: 800px) {
+    .column-gallery {
+        -ms-flex: 45%; 
+        flex: 45%;
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row-gallery{
+        display: none;
+    }
+ 
+    .row-gallery-800{
+        display: -ms-flexbox;  /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */ 
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .family-image{
+        width: 50% !important;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .column-gallery {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .nav-list{
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .navbar{
+        position: relative;
+    }
+    .invitation{
+        flex-direction: column;
+    }
+    .burger{
+        display: block !important;
+    }
+
+    .h-nav{
+        height: 70px;
+    }
+
+    .v-class{
+        opacity: 0;
+    }
+    .dp{
+        width: 80% !important;
+    }
+    .invited{
+        width: 95% !important;
+    }
+    .member-family{
+        width: 80% !important;
+    }
+    .member-family-2{
+        width: 80% !important;
+    }
+    .family-image{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .member-family .papa{
+        align-content: flex-end;
+    }
+    .background{
+        background-size: 100% !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        background-color: rgb(250, 235, 215,0.7) !important;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .box-main{
+        width: 100%;
+    }
+
+    .invitation{
+        width: 100%;
+    }
+    
+    
+}

@@ -1,149 +1,8 @@
+@import 'resp.css';
+@import 'nav.css';
 *{
     margin: 0;
     padding: 0;
-}
-
-@media screen and (max-width: 800px) {
-    .column-gallery {
-        -ms-flex: 45%; 
-        flex: 45%;
-        max-width: 45%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .row-gallery{
-        display: none;
-    }
- 
-    .row-gallery-800{
-        display: -ms-flexbox;  /* IE10 */
-        display: flex;
-        -ms-flex-wrap: wrap; /* IE10 */ 
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
-    
-}
-
-@media screen and (max-width: 600px) {
-    .column-gallery {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
-    .nav-list{
-        align-items: center;
-        flex-direction: column;
-        margin: auto;
-    }
-    .navbar{
-        position: relative;
-    }
-    .invitation{
-        flex-direction: column;
-    }
-    .burger{
-        display: block !important;
-    }
-
-    .h-nav{
-        height: 70px;
-    }
-
-    .v-class{
-        opacity: 0;
-    }
-    .dp{
-        width: 80% !important;
-    }
-    .member-family{
-        width: 80% !important;
-    }
-    .member-family-2{
-        width: 80% !important;
-    }
-    .family-image{
-        margin: 0 !important;
-        padding: 0 !important;
-    }
-    .member-family .papa{
-        align-content: flex-end;
-    }
-}
-
-@media screen and (max-width: 1100px){
-    .box-main{
-        width: 100%;
-    }
-
-    .invitation{
-        width: 100%;
-    }
-    
-}
-
-.navbar{
-    display: flex;
-    background-color: rgb(250, 235, 215,0.7);
-    position: sticky;
-    top: 0;
-}
-
-.nav-list{
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-}
-
-.nav-list li{
-    list-style: none;
-    padding: 26px 30px; 
-}
-
-.nav-list li a{
-    text-decoration: none;
-    color: rgb(163, 61, 61);    
-}
-
-.nav-list li a:hover{
-    color: grey;
-}
-
-.burger{
-    display: none;
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 15px;
-}
-
-.line{
-    width: 33px;
-    background-color: rgb(163, 61, 61);   
-    height: 4px;
-    margin: 5px 3px;
-}
-.background{
-    background: rgba(5, 4, 4, 0.3) url('../assets/bg.JPG');
-    background-size: cover;
-    background-blend-mode: darken;
-}
-
-.text-big{
-    font-size: 50px;
-    padding: 30px 10px;
-    text-align: center;
-}
-
-.text-small{
-    margin-left: 12.5%;
-    font-size:35px;
-    text-align: center;
-    border-radius: 5px;
-    width: 75%;
-    color: rgba(66, 62, 62, 0.952);
-    background-color: rgba(250, 235, 215, 0.7);
 }
 
 .invitation .text-small{
@@ -160,8 +19,11 @@
 .box-main{
     display: flex; 
     justify-content: center; 
-    height: 100vh; 
+    /* height: 100vh;  */
     color: white; 
+    width: 100%;
+    /* height: auto; */
+    overflow: auto;
 }
 
 .firstHalf {
@@ -202,17 +64,23 @@
 .dp{
     border: 2px solid white;
     border-radius: 50%;
-    width: 380px;
-    height: 550px;
-    padding: 20px;
+    width: 30%;
+    height: auto;
+    padding: 1%;
     margin: 5px;
 }
-
+.invited{
+    width: 30%;
+}
 .whenAndWhere{
-    background: rgba(5, 4, 4, 0.7) url('../assets/venue.jpg');
+    background: rgba(212, 205, 205, 0.7) url('../assets/venue.jpg');
+    width: 80%;
+    margin: auto;
     background-repeat:no-repeat;    
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     background-position:center;
+    background-size: cover;
+    background-blend-mode: darken;
 }
 
 .whenAndWhere .text-small {
@@ -240,21 +108,10 @@ footer .text-big{
 .family-image{
     border: 2px solid white;
     border-radius: 50%;
-    width: 260px;
-    height: 390px;
+    width: 30%;
     padding: 20px;
     margin: 5px;
     margin-left: 10%;
-}
-
-.member-family-2 .family-image{
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 260px;
-    height: 390px;
-    padding: 20px;
-    margin: 5px;
-    margin-right:10% ;
 }
 
 .member-family{
@@ -276,15 +133,7 @@ footer .text-big{
     flex-direction: row-reverse;
 }
 
-.polu .family-image{
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 260px;
-    height: 200px;
-    /* padding: 20px;
-    margin: 5px; */
-    /* margin-left:10% ; */
-}
+
 
 .family-content{
     padding-left: 5px;
@@ -304,7 +153,7 @@ footer .text-big{
     display: none;  
 }
 
-/* Create four equal columns that sits next to each other */
+/* Create 3 equal columns that sits next to each other */
 .column-gallery {
     -ms-flex: 30%; /* IE10 */
     flex: 30%;
