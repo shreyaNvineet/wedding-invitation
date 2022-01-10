@@ -81,10 +81,11 @@
     width: 80%;
     margin: auto;
     background-repeat:no-repeat;    
-    /* background-color: aliceblue; */
+    background-color:antiquewhite;
     background-position:center;
     background-size: cover;
     background-blend-mode: darken;
+    padding: 10px;
 }
 
 .whenAndWhere .text-big{
