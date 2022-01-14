@@ -4,8 +4,8 @@ body {
     font-weight: normal;
     margin: 0;
     padding: 0;
-    /* background: url(https://josetxu.com/img/fondo_blanco.png) repeat 0 0 rgba(255, 255, 255, 0.555); */
-  }
+    background: rgba(238, 231, 222, 0.521);
+}
   
   h1 {
     background: #333;
@@ -30,7 +30,7 @@ body {
   }
   
   .card {
-    background: rgb(235, 183, 14);
+    background: bisque;
     cursor: default;
     height: 300px;
     border-radius: 5%;
@@ -39,6 +39,7 @@ body {
     width: 100%;
     -webkit-animation: giro 1s 1;
     animation: giro 1s 1;
+    color:rgba(165, 42, 42, 0.753);
   }
   
   .card p {
@@ -49,7 +50,6 @@ body {
   .card .back {
     backface-visibility: hidden;
     box-sizing: border-box;
-    color:whitesmoke;
     border-radius: 5%;
     display: block;
     font-size: 1.2em;
@@ -71,6 +71,7 @@ body {
   
   .card .back {
     transform: rotateY( 180deg);
+    color:azure;
   }
   
   .card .back a {
