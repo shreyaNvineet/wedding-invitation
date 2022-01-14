@@ -39,7 +39,7 @@ body {
     width: 100%;
     -webkit-animation: giro 1s 1;
     animation: giro 1s 1;
-    color:rgba(165, 42, 42, 0.753);
+    color:white;
   }
   
   .card p {
@@ -72,6 +72,7 @@ body {
   .card .back {
     transform: rotateY( 180deg);
     color:azure;
+    background: url('../assets/mehandi.jpg');
   }
   
   .card .back a {
@@ -91,21 +92,63 @@ body {
   }
   
   .cardBox:nth-child(1) .card .back {
-    background: cornflowerblue;
+    /* background: cornflowerblue; */
+    background: url('../assets/gal/gal09.JPG');
+    background-position:center;
+    background-size: cover;
+
   }
   
   .cardBox:nth-child(2) .card .back {
     background: orange;
+    background: url('../assets/mehandi.jpg');
+    background-position:center;
+    background-size: cover;
   }
   
   .cardBox:nth-child(3) .card .back {
     background: yellowgreen;
+    background: url('../assets/sangeet.jpg');
+    background-position:center;
+    background-size: cover;
   }
   
   .cardBox:nth-child(4) .card .back {
     background: tomato;
+    background: url('../assets/phere.jpg');
+    background-position:center;
+    background-size: cover;
+  }
+
+  .cardBox:nth-child(1) .card .front {
+    /* background: cornflowerblue; */
+    background: url('../assets/gal/gal09.JPG');
+    background-position:center;
+    background-size: cover;
+
   }
   
+  .cardBox:nth-child(2) .card .front {
+    background: orange;
+    background: url('../assets/mehandi.jpg');
+    background-position:center;
+    background-size: cover;
+  }
+
+  .cardBox:nth-child(3) .card .front {
+    background: yellowgreen;
+    background: url('../assets/sangeet.jpg');
+    background-position:center;
+    background-size: cover;
+  }
+
+  .cardBox:nth-child(4) .card .front {
+    background: orange;
+    background: url('../assets/phere.jpg');
+    background-position:center;
+    background-size: cover;
+  }
+
   .cardBox:nth-child(2) .card {
     -webkit-animation: giro 1.5s 1;
     animation: giro 1.5s 1;
