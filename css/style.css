@@ -1,6 +1,7 @@
 @import 'resp.css';
 @import 'nav.css';
 @import 'card.css';
+@import 'countdown.css';
 *{
     margin: 0;
     padding: 0;
@@ -69,11 +70,6 @@
     width: 4px;
     margin: 0 35px;
 }
-
-.countdown{
-    display: flex;
-}
-
 
 .invitation{
     display: flex;
