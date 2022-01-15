@@ -1,50 +1,4 @@
-@media screen and (max-width: 860px){
-    .nav-list{
-        align-items: center;
-        flex-direction: column;
-        margin: auto;
-    }
-    .navbar{
-        position: relative;
-    }
-    
-    .burger{
-        display: block !important;
-    }
 
-    .h-nav{
-        height: 70px;
-    }
-
-    .v-class{
-        opacity: 0;
-    }
-}
-@media screen and (max-width: 800px) {
-    .column-gallery {
-        -ms-flex: 45%; 
-        flex: 45%;
-        max-width: 45%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .row-gallery{
-        display: none;
-    }
- 
-    .row-gallery-800{
-        display: -ms-flexbox;  /* IE10 */
-        display: flex;
-        -ms-flex-wrap: wrap; /* IE10 */ 
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
-    .family-image{
-        width: 50% !important;
-    }
-    
-}
 
 @media screen and (max-width: 600px) {
     .column-gallery {
@@ -98,6 +52,82 @@
         background-repeat: no-repeat !important;
         background-position: center !important;
         background-color: rgb(250, 235, 215,0.7) !important;
+    }
+    .title-img{
+        width: 65% !important;
+    }
+    .firstSection{
+        height: 100vh;
+    }
+   
+    .date-title-1{
+        font-size: 7vw !important;
+        text-align: left;
+        margin: 0 !important;
+    }
+    .firstSection .line {
+        height: 30vw !important;
+        margin: 0 0 !important;
+    }
+    .head-title{
+        font-size: 10vw !important;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .firstHalf{
+        flex-direction: column !important;
+        width: 45% !important;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .column-gallery {
+        -ms-flex: 45%; 
+        flex: 45%;
+        max-width: 45%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row-gallery{
+        display: none;
+    }
+ 
+    .row-gallery-800{
+        display: -ms-flexbox;  /* IE10 */
+        display: flex;
+        -ms-flex-wrap: wrap; /* IE10 */ 
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+    .family-image{
+        width: 50% !important;
+    }
+    
+}
+
+@media screen and (max-width: 860px){
+    .nav-list{
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+    }
+    .navbar{
+        position: relative;
+    }
+    
+    .burger{
+        display: block !important;
+    }
+
+    .h-nav{
+        height: 70px;
+    }
+
+    .v-class{
+        opacity: 0;
     }
 }
 
