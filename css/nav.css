@@ -16,11 +16,13 @@
     list-style: none;
     padding: 26px 30px; 
     text-transform: none;
+    font-size: 20px;
 }
 
 .nav-list li a{
     text-decoration: none;
-    color: rgb(163, 61, 61);    
+    color: rgb(163, 61, 61);  
+    font-size: 20px;  
 }
 
 .nav-list li a:hover{
