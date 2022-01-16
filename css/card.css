@@ -122,7 +122,7 @@ body {
 
   .cardBox:nth-child(1) .card .front {
     /* background: cornflowerblue; */
-    background: url('../assets/gal/gal09.JPG');
+    background: url('../assets/gal/gal09.webp');
     background-position:center;
     background-size: cover;
 
