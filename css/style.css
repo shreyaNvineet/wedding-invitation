@@ -2,6 +2,7 @@
 @import 'nav.css';
 @import 'card.css';
 @import 'countdown.css';
+@import 'font.css';
 *{
     margin: 0;
     padding: 0;
@@ -83,7 +84,8 @@
 
 .invitation .text-big {
     color: rgb(199, 22, 22);
-    font-size: 35px;    
+    /* font-size: 50px;  */
+    font-weight: bolder;   
 }
 
 .invitation .text-small{
@@ -96,8 +98,8 @@
 .invitation .text-small{    
     border: none;
     border-radius: 5%;
-    color:grey;
-    font-size: 22px;  
+    color:darkslategray;
+    font-size: 2vw;  
     padding: 10px;  
 }
 
@@ -147,9 +149,6 @@
     
 }
 
-.brideFamily .text-big{
-    font-size: 45px;
-}
 .family-image{
     border: 2px solid white;
     border-radius: 50%;
