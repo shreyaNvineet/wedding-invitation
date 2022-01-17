@@ -26,7 +26,7 @@
     }
 
     .v-class{
-        opacity: 0;
+        display: none !important;
     }
     .dp{
         width: 80% !important;
