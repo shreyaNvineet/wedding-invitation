@@ -72,8 +72,27 @@
     .head-title{
         font-size: 10vw !important;
     }
+    .whenAndWhere .content {
+        width: 80% !important;
+    }
     .when-and-where .text-big{
         font-size: 14vw !important;
+    }
+    .whenAndWhere .title1{
+        font-size: 8vw !important;
+        font-weight: bold;
+    }
+    
+    .whenAndWhere .title2{
+        font-size: 6vw !important;
+    }
+    
+    .whenAndWhere .title3{
+        font-size: 4vw !important;
+    }
+    
+    .whenAndWhere .title4{
+        font-size: 3vw !important;
     }
     .text-big{
         font-size: 18vw !important;
